@@ -29,8 +29,8 @@ set shiftwidth=4
 set t_Co=256
 
 function! HasColorscheme(name)
-	let pat = 'colors/'.a:name.'.vim'
-	return !empty(globpath(&rtp, pat))
+    let pat = 'colors/'.a:name.'.vim'
+    return !empty(globpath(&rtp, pat))
 endfunction
 
 if HasColorscheme("solarized")
