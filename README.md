@@ -9,12 +9,14 @@ Installation
 ------------
 
 1. Clone the repository to `~/.vim`
-
-    git clone git://github.com/iley/vim-quickstart.git ~/.vim
+```bash
+git clone git://github.com/iley/vim-quickstart.git ~/.vim
+```
 
 2. Make a symlink for ~/.vimrc file
-
-    ln -s ~/.vim/vimrc ~/.vimrc
+```bash
+ln -s ~/.vim/vimrc ~/.vimrc
+```
 
 3. Run vim and install bundles with `:BundleInstall`
 4. Restart vim and enjoy!
