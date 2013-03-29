@@ -18,5 +18,10 @@ git clone git://github.com/iley/vim-quickstart.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
+3. Create directories for temporary files
+```bash
+mkdir -p ~/.cache/vim/{swap,backup,undo}
+```
+
 3. Run vim and install bundles with `:BundleInstall`
 4. Restart vim and enjoy!

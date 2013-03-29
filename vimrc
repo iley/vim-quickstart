@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
@@ -13,10 +13,6 @@ Bundle 'tpope/vim-sensible'
 Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on     " required!
-
-if exists('+undodir')
-    set undodir=~/.vim/undo
-endif
 
 " use spaces instead of tabs
 set expandtab
