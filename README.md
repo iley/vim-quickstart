@@ -26,7 +26,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 4. Create directories for temporary files
 ```bash
-mkdir -p ~/.cache/vim/{swap,backup,undo}
+mkdir -p ~/.local/share/vim{swap,undo,backup}
 ```
 
 5. Run vim and install bundles with `:BundleInstall`
