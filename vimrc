@@ -34,3 +34,9 @@ if HasColorscheme("solarized")
     set background=dark
     colorscheme solarized
 endif
+
+if exists('+undodir')
+  set undodir="~/.vim/undo"
+endif
+
+set backupdir="~/.vim/backup"
