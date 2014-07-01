@@ -40,3 +40,4 @@ if exists('+undodir')
 endif
 
 set backupdir="~/.vim/backup"
+set directory="~/.vim/swap"
